@@ -1,0 +1,26 @@
+22/01/2024 Q2
+
+count the number
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main() {
+
+   int n;
+   cin>>n;
+   int count=0;
+   do{
+     n/=10;
+     count++;
+     }
+    while(n>0);
+      cout<<count;
+      return 0;
+}
+
+    
+      
